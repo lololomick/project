@@ -1,0 +1,47 @@
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 0.75fr 0.5fr 1fr 1fr 0.5fr; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    "baseimage baseimage"
+    "cta cta"
+    "nieuws1 nieuws2"
+    "nieuws3 nieuws4"
+    "signup signup"; 
+}
+.baseimage { 
+    grid-area: baseimage;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button_background { grid-area: cta; }
+.cta1 { grid-area: cta1; }
+.cta2 { grid-area: cta2; }
+.nieuws1 { grid-area: nieuws1; }
+.nieuws2 { grid-area: nieuws2; }
+.nieuws3 { grid-area: nieuws3; }
+.nieuws4 { grid-area: nieuws4; }
+.signup { grid-area: signup; }
+
+.button {
+
+ color: white;
+ padding: 10px;
+ text-align: center;
+ background-color: #e5007d;
+ border-radius: 5px;
+ width: 20%;  
+ height: 50px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.button_background{
+  display: flex;
+  align-items: center;
+  z-index: -1;
+  margin-top: -5%;
+  background-color: #d9eeff;
+}

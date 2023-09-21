@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+main{
+    margin-inline: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.list_inline a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.list_inline a:link{
+    color: black;
+}
+.list_inline a:visited{
+    color: black;
+}
+
+footer{
+    margin-top: 5%;
+    margin-bottom: 0%;
+    position:relative;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.cr-con{
+  background-color: darkblue;
+  color: white;
+  padding: 1rem 4rem;
+  text-align: center;
+}
+.footer1{
+  color: white;
+}
