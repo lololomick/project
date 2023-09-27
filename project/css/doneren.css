@@ -1,0 +1,61 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 10px;
+    background-color: #d9eeff;
+    margin-bottom: 1%;
+    grid-template-areas:
+      "title title"
+      "Doneren Doneren"
+      "persoonlijk-gevenens persoonlijk-gevenens"
+      "naam achernaam"
+      "geboortedatum leeg"
+      "contact-gegevens contact-gegevens"
+      "email telefoonnummer"
+      "Donatie Donatie"
+      "donatie-geld donatie-geld"
+      "button button";
+  }
+  
+  #title { grid-area: title; }
+  
+  .Doneren { grid-area: Doneren; }
+  
+  .persoonlijk-gevenens { grid-area: persoonlijk-gevenens; }
+  
+  .naam { grid-area: naam; 
+  }
+  
+  .achernaam { grid-area: achernaam; }
+  
+  .geboortedatum { grid-area: geboortedatum; }
+  
+  .leeg { grid-area: leeg; }
+  
+  .contact-gegevens { grid-area: contact-gegevens; }
+  
+  .email { grid-area: email; }
+  
+  .telefoonnummer { grid-area: telefoonnummer; }
+  
+  .Donatie { grid-area: Donatie; }
+  
+  .donatie-geld { grid-area: donatie-geld; }
+
+  .button{
+    grid-area: button;
+  }
+
+  
+  .image{
+    width: 100%;
+
+  }
+
+
+
+
+  #fname{
+    width: 100%;
+  }

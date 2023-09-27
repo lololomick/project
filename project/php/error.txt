@@ -1,0 +1,25 @@
+[26-Sep-2023 12:42:03 UTC] PHP Warning:  require(php/connect.php): Failed to open stream: No such file or directory in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 57
+[26-Sep-2023 12:42:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/connect.php' (include_path='.:/opt/RZphp80/includes') in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:57
+Stack trace:
+#0 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 57
+[26-Sep-2023 12:42:09 UTC] PHP Warning:  require(php/connect.php): Failed to open stream: No such file or directory in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 57
+[26-Sep-2023 12:42:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/connect.php' (include_path='.:/opt/RZphp80/includes') in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:57
+Stack trace:
+#0 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 57
+[26-Sep-2023 12:42:29 UTC] PHP Warning:  Undefined variable $pdo in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 60
+[26-Sep-2023 12:42:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:60
+Stack trace:
+#0 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 60
+[26-Sep-2023 12:42:31 UTC] PHP Warning:  Undefined variable $pdo in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 60
+[26-Sep-2023 12:42:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:60
+Stack trace:
+#0 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 60
+[26-Sep-2023 12:42:42 UTC] PHP Warning:  Undefined variable $pdo in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 60
+[26-Sep-2023 12:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:60
+Stack trace:
+#0 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 60

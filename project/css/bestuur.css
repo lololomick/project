@@ -1,0 +1,117 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 24% 24% 1fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 10px;
+    justify-items: center;
+    grid-auto-flow: row;
+    background-color: #d9eeff;
+    grid-template-areas:
+      "title title title"
+      "foto foto4 foto5"
+      "foto1 foto6 foto7"
+      "foto2 text text";
+  }
+  
+  .title { grid-area: title;
+        padding-bottom: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.image{
+    width: 100%;
+}
+
+  .foto { grid-area: foto; 
+    margin-bottom:0px ;
+    margin-top: 0px;
+}
+  
+  .foto1 { grid-area: foto1; }
+  
+  .foto2 { grid-area: foto2; }
+  
+  .foto4 { grid-area: foto4; }
+  
+  .foto5 { grid-area: foto5; }
+  
+  .foto6 { grid-area: foto6; }
+  
+  .foto7 { grid-area: foto7; }
+  
+  .text { grid-area: text; 
+    background-color: darkblue;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 12%;
+}
+
+.text1{
+    color: blue;
+    margin-bottom:0px ;
+    margin-top: 0px;
+}
+
+.text2{
+    margin-bottom:0px ;
+    margin-top: 0px;
+}
+  
+
+@media only screen and (max-width: 960px) {
+
+        .container {  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 15% 1fr 1fr 1fr 1fr 1fr ;
+        grid-auto-columns: 1fr;
+        gap: 10px 10px;
+        justify-items: center;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "title title"
+          "foto foto"
+          "foto1 foto2"
+          "foto4 foto5"
+          "foto6 foto7"
+          "text text";
+        }
+
+      .image{
+        width: 100%;
+      }
+
+    }
+
+    @media only screen and (max-width: 580px) {
+
+      .container {  
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+      grid-auto-columns: 1fr;
+      gap: 10px 10px;
+      justify-items: center;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "title"
+        "foto"
+        "foto1"
+        "foto2"
+        "foto4"
+        "foto5"
+        "foto6"
+        "foto7" 
+        "text";
+      }
+
+    .image{
+      width: 100%;
+    }
+
+  }
