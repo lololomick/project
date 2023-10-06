@@ -1,6 +1,8 @@
+html,
 body{
     margin: 0;
     scroll-behavior: smooth;
+    overflow-X: hidden;
 }
 main{
     margin-inline: 5%;
@@ -20,13 +22,23 @@ main{
 }
 
 footer{
-    margin-top: 5%;
-    margin-bottom: 0%;
+    margin-bottom: 0;
     position:relative;
     width: 100%;
     left: 0px;
     right: 0px;
     bottom: 0px;
+    border-top: 3px solid black;
+}
+
+li{
+    list-style-type: none
+}
+ul{
+    padding: 0;
+}
+a{
+    text-decoration: none;
 }
 
 .cr-con{
@@ -38,3 +50,19 @@ footer{
 .footer1{
   color: white;
 }
+
+.popupcontact{
+    text-align: center;
+    background-color: darkblue;
+    border-radius: 15px;
+    width: 50%;
+    height: 35%;
+    color: #d9eeff;
+    padding: 20px;
+    position: absolute;
+    z-index: 100;
+    top: 2%;
+    border: 3px solid black;
+    left: 25%;
+    right: 25%;
+  }

@@ -1,0 +1,51 @@
+.container_contact{
+  text-align: center;
+  background-color: #d9eeff;
+}
+.contactform{
+  display: grid; 
+  padding: 25px;
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 54px 54px 54px 54px; 
+  gap: 15px 15px; 
+  color: black;
+  grid-template-areas: 
+    "naam tel"
+    "email age"
+    "text text"
+    ". verstuur"; 
+}
+.contactform input{
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid black;
+}
+#naam { grid-area: naam; }
+#tel { grid-area: tel; }
+#email { grid-area: email; }
+#age { grid-area: age; }
+#text { grid-area: text; }
+#verstuur { grid-area: verstuur; cursor: pointer;}
+::placeholder{
+    color: black;
+}
+
+
+@media only screen and (max-width: 520px) {
+  .contactform {
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 10px 10px; 
+    padding: 25px;
+    grid-template-areas: 
+      "naam"
+      "tel"
+      "email"
+      "age"
+      "text"
+      "verstuur";
+  }
+}

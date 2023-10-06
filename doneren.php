@@ -1,3 +1,11 @@
+<?php 
+  session_start();
+  require('php/functions.php');
+  error_reporting(E_ALL);
+  ini_set('log_errors', 1);
+  ini_set('error_log', 'error.txt');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,11 +15,17 @@
       <link rel="stylesheet" href="css/style.css" type="text/css">
       <link rel="stylesheet" href="css/header.css" type="text/css">
       <link rel="stylesheet" href="css/doneren.css" type="text/css">
+      <link rel="stylesheet" href="css/footer.css" type="text/css">
+      <link rel="stylesheet" href="css/footerform.css" type="text/css">
+      <script src="js/script.js"></script>
       <script src="https://kit.fontawesome.com/5bb7bb3e3a.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <title>Project 2</title>
   </head>
   <body>
+    <div id="popupcontact" class="popupcontact">
+      <?php popupdoneren() ?>
+    </div>
     <header class="header sticky sticky--top js-header">
         <div class="grid">
           <nav class="navigation">
@@ -28,26 +42,24 @@
     </header>
     <main>
       <section>
-        <div class="container">
-          <div class="title"><img class="image" src="img/dies2048xfinal_21.jpg" alt=""></div>
-          <div class="Doneren">Doneren</div>
-          <div class="persoonlijk-gevenens">persoonlijk gegevens</div>
-          <div class="naam">naam</div>
-          <div class="achernaam">achternaam</div>
-          <div class="geboortedatum">geboortedatum</div>
-          <div class="leeg">.</div>
-          <div class="contact-gegevens">contact gegevens</div>
-          <div class="email">email</div>
-          <div class="telefoonnummer">telefoonnummer</div>
-          <div class="Donatie">donatie</div>
-          <div class="donatie-geld">donatie geld</div>
-        </div>
+      <div class="container">
+        <img id="title" class="image" src="img/dies2048xfinal_21.jpg" alt="">
+          <h1 class="Doneren">Doneren</h1>
+
+          <form  class="form" action="php/functions.php" method="POST">
+          <input type="hidden" value="doneren" name="doneren">
+          <input class="naam" type="text"  placeholder="Naam" name="naam" required="required">
+          <input type="date"  name="geboortedatum" class="geboortedatum" required="required">
+          <input type="email"   placeholder="email" class="email" name="email" required="required">
+          <input type="number"  placeholder="telefoonnummer" class="telefoonnummer" name="telefoon" required="required">
+          <input type="number" step="0.01" placeholder="donatie" class="donatie" name="donatie_geld" required="required">
+          <input type="submit" name="doneren" value="doneren"    id="button">
+        </form>
+      </div>
+
+
       </section>
     </main>
-    <footer>
-      <div class="cr-con"><a class="footer1" href="bestuur.php"  >Over ons |</a> <a class="footer1" href="contact.php"  >contact info |</a>
-        <a href="mailto: anil@jovd.nl" class="footer1">Email |</a> <a class="footer1" href="https://www.Facebook.com/"  >Facebook </a> <div class='cr-con'> Jongerenorganisatie Vrijheid en Democratie |  &copy; <script>document.write(new Date().getFullYear());</script> </div>
-      </div>
-    </footer>
+    <?php require('php/footer.php'); ?>
   </body>
 </html>

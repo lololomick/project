@@ -1,13 +1,21 @@
-import throttle from "https://cdn.skypack.dev/lodash@4/throttle";
-
-function onScroll() {
-  if (window.pageYOffset) {
-    $$header.classList.add("is-active");
-  } else {
-    $$header.classList.remove("is-active");
-  }
+function shownews(i) {
+  document.getElementById(i).style.visibility='visible';
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+function hidenews(i) {
+  document.getElementById(i).style.visibility='hidden';
+  document.getElementById('nieuws1').scrollIntoView({behavior: 'smooth'});
 }
 
-const $$header = document.querySelector(".js-header");
+function hidecontact() {
+  setTimeout(function(){ 
+    window. location. reload(); 
+  }, 5000);
+}
 
-window.addEventListener("scroll", throttle(onScroll, 300));
+function hidepopup() {
+  document.getElementById("popupcontact").style.visibility='hidden';
+}
+function showpopup() {
+  document.getElementById("popupcontact").style.visibility='visible';
+}

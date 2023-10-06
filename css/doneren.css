@@ -1,47 +1,69 @@
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 10px 10px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "title title"
-      "Doneren Doneren"
-      "persoonlijk-gevenens persoonlijk-gevenens"
-      "naam achernaam"
-      "geboortedatum leeg"
-      "contact-gegevens contact-gegevens"
-      "email telefoonnummer"
-      "Donatie Donatie"
-      "donatie-geld donatie-geld";
-  }
-  
-  .title { grid-area: title; }
-  
-  .Doneren { grid-area: Doneren; }
-  
-  .persoonlijk-gevenens { grid-area: persoonlijk-gevenens; }
-  
-  .naam { grid-area: naam; }
-  
-  .achernaam { grid-area: achernaam; }
-  
-  .geboortedatum { grid-area: geboortedatum; }
-  
-  .leeg { grid-area: leeg; }
-  
-  .contact-gegevens { grid-area: contact-gegevens; }
-  
-  .email { grid-area: email; }
-  
-  .telefoonnummer { grid-area: telefoonnummer; }
-  
-  .Donatie { grid-area: Donatie; }
-  
-  .donatie-geld { grid-area: donatie-geld; }
+.form {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 54px 54px 54px 54px; 
+  gap: 15px 15px; 
+  padding: 25px;
+  grid-template-areas: 
+    "naam geboortedatum"
+    "email telefoonnummer"
+    "donatie donatie"
+    ". button";
+}
 
+::placeholder{
+  color: black;
+}
+
+.container{
+  text-align: center;
+  background-color: #d9eeff;
+}
+
+.container input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid black; 
+  border: 2px solid black;
+
+}
+
+.naam { grid-area: naam;}
+.geboortedatum { grid-area: geboortedatum; }
+.email { grid-area: email; }
+.telefoonnummer { grid-area: telefoonnummer; }
+.donatie { grid-area: donatie; }
+#button{grid-area: button; margin-bottom: 1%; cursor: pointer;}
   
   .image{
     width: 100%;
-    height: 100%;
   }
+
+  @media only screen and (max-width: 580px) {
+    .form {
+      display: grid; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+      gap: 10px 10px; 
+      padding: 25px;
+      grid-template-areas: 
+        "naam"
+        "geboortedatum"
+        "email"
+        "telefoonnummer"
+        "donatie"
+        "button";
+    }
+
+    .container input{
+      padding: 5px;
+    
+    }
+
+  }
+

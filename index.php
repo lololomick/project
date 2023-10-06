@@ -1,6 +1,9 @@
 <?php 
-session_start(); 
-require('php/connect.php');
+    session_start();
+    require('php/functions.php');
+    error_reporting(E_ALL);
+    ini_set('log_errors', 1);
+    ini_set('error_log', 'error.txt');
 ?>
 
 <!DOCTYPE html>
@@ -12,11 +15,17 @@ require('php/connect.php');
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/header.css" type="text/css">
         <link rel="stylesheet" href="css/home.css" type="text/css">
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
+        <link rel="stylesheet" href="css/footerform.css" type="text/css">
+        <script src="js/script.js"></script>
         <script src="https://kit.fontawesome.com/5bb7bb3e3a.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <title>Project 2</title>
     </head>
     <body>
+        <div id="popupcontact" class="popupcontact">
+          <?php signuppopup() ?>
+        </div>
         <header class="header sticky sticky--top js-header">
             <div class="grid">
               <nav class="navigation">
@@ -34,34 +43,16 @@ require('php/connect.php');
         <main>
             <section>
                 <div class="container">
+                    <?php load_nieuws() ?>
                     <img class="baseimage" src="img/placeholder.jpg" alt="">
                     <div class="button_background">
                        <a class="cta1 button" href="contact.php">Contact</a>
-                       <a class="cta2 button" href="#signup">Sign up</a>
+                       <a class="cta2 button" href="doneren.php">Doneren</a>
                     </div>
-                    <div class="nieuws_item nieuws1">
-                    <?php require('php/homenieuws.php'); ?>
-                    </div>
-                    <div class="nieuws_item nieuws2">
-                        <p>test</p>
-                    </div>
-                    <div class="nieuws_item nieuws3">
-                        <p>test</p>
-                    </div>
-                    <div class="nieuws_item nieuws4">
-                        <p>test</p>
-                    </div>
-                    <div id="signup" class="signup">
-                        <p>test</p>
-                        <input type="text" name="" id="">
-                    </div>
+                    <?php load_nieuws_klein() ?>  
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="cr-con"><a class="footer1" href="bestuur.php"">Over ons |</a> <a class="footer1" href="contact.php"  >contact info |</a>
-              <a href="mailto: anil@jovd.nl" class="footer1">Email |</a> <a class="footer1" href="https://www.Facebook.com/"  >Facebook </a> <div class='cr-con'> Jongerenorganisatie Vrijheid en Democratie |  &copy; <script>document.write(new Date().getFullYear());</script> </div>
-            </div>
-        </footer>
+        <?php require('php/footer.php'); ?>
     </body>
 </html>

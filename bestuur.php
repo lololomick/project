@@ -1,3 +1,7 @@
+<?php 
+    session_start();
+    require('php/functions.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +11,8 @@
       <link rel="stylesheet" href="css/style.css" type="text/css">
       <link rel="stylesheet" href="css/header.css" type="text/css">
       <link rel="stylesheet" href="css/bestuur.css" type="text/css">
+      <link rel="stylesheet" href="css/footer.css" type="text/css">
+      <link rel="stylesheet" href="css/footerform.css" type="text/css">
       <script src="https://kit.fontawesome.com/5bb7bb3e3a.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <title>Project 2</title>
@@ -46,10 +52,6 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="cr-con"><a class="footer1" href="bestuur.php"  >Over ons |</a> <a class="footer1" href="contact.php"  >contact info |</a>
-        <a href="mailto: anil@jovd.nl" class="footer1">Email |</a> <a class="footer1" href="https://www.Facebook.com/"  >Facebook </a> <div class='cr-con'> Jongerenorganisatie Vrijheid en Democratie |  &copy; <script>document.write(new Date().getFullYear());</script> </div>
-      </div>
-    </footer>
+    <?php require('php/footer.php'); ?>
   </body>
 </html>

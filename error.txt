@@ -1,0 +1,150 @@
+[04-Oct-2023 08:49:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/index.php(56): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 08:49:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/index.php(56): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 08:49:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/nieuws.php(50): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 08:50:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/contact.php(62): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 08:50:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/doneren.php(63): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 08:50:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/contact.php(62): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 08:50:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/doneren.php(63): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 08:50:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/index.php(56): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 09:03:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/index.php(56): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 09:03:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/index.php(56): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 09:03:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(40): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/index.php(56): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 09:04:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 2
+[04-Oct-2023 09:04:22 UTC] PHP Fatal error:  Cannot redeclare topdonate() (previously declared in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:17) in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 25
+[04-Oct-2023 09:04:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 2
+[04-Oct-2023 09:04:24 UTC] PHP Fatal error:  Cannot redeclare topdonate() (previously declared in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:17) in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 25
+[04-Oct-2023 09:04:39 UTC] PHP Fatal error:  Cannot redeclare topdonate() (previously declared in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:17) in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 25
+[04-Oct-2023 09:05:33 UTC] PHP Fatal error:  Cannot redeclare topdonate() (previously declared in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:17) in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 25
+[04-Oct-2023 09:05:36 UTC] PHP Fatal error:  Cannot redeclare topdonate() (previously declared in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:17) in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 25
+[04-Oct-2023 09:06:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'danatie' in 'order clause' in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php:20
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php(20): PDOStatement->execute()
+#1 /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php(46): topdonate()
+#2 /mnt/web615/b0/29/518785129/htdocs/project/index.php(56): require('...')
+#3 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/functions.php on line 20
+[04-Oct-2023 09:26:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function signuppopup() in /mnt/web615/b0/29/518785129/htdocs/project/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/index.php on line 27
+[04-Oct-2023 09:33:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:46
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 46
+[04-Oct-2023 11:22:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[05-Oct-2023 22:49:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 07:59:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 07:59:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 07:59:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 08:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 08:13:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 08:13:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 08:13:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29
+[06-Oct-2023 08:13:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function topdonate() in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php:29
+Stack trace:
+#0 /mnt/web615/b0/29/518785129/htdocs/project/bestuur.php(51): require()
+#1 {main}
+  thrown in /mnt/web615/b0/29/518785129/htdocs/project/php/footer.php on line 29

@@ -28,6 +28,7 @@ body {
 .header {
   padding-block: 1em;
   background-color: white;
+  z-index: 14;
 }
 .header::after {
   bottom: 0;
@@ -60,6 +61,7 @@ h1 {
   gap: 1.5em;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
 }
 .nav_link {
   color: inherit;

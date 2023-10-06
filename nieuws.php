@@ -1,3 +1,11 @@
+<?php 
+    session_start();
+    require('php/functions.php');
+    error_reporting(E_ALL);
+    ini_set('log_errors', 1);
+    ini_set('error_log', 'error.txt');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +15,11 @@
       <link rel="stylesheet" href="css/style.css" type="text/css">
       <link rel="stylesheet" href="css/header.css" type="text/css">
       <link rel="stylesheet" href="css/bestuur.css" type="text/css">
+      <link rel="stylesheet" href="css/home.css" type="text/css">
+      <link rel="stylesheet" href="css/footer.css" type="text/css">
+      <link rel="stylesheet" href="css/footerform.css" type="text/css">
+      <link rel="stylesheet" href="css/nieuws.css" type="text/css">
+      <script src="js/script.js"></script>
       <script src="https://kit.fontawesome.com/5bb7bb3e3a.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <title>Project 2</title>
@@ -17,9 +30,9 @@
           <nav class="navigation">
             <ul class="list list_inline">
               <li class="nav_item"><a href="index.php" class="nav_link img_nav"><img class="nav_img" src="img/logo.png" alt="logo"></a></li>
-              <li class="nav_item"><a href="index.php" class="nav_link nav_link_active">Home</a></li>
+              <li class="nav_item"><a href="index.php" class="nav_link">Home</a></li>
               <li class="nav_item"><a href="bestuur.php" class="nav_link">Over ons</a></li>
-              <li class="nav_item"><a href="nieuws.php" class="nav_link">Nieuws</a></li>
+              <li class="nav_item"><a href="nieuws.php" class="nav_link nav_link_active">Nieuws</a></li>
               <li class="nav_item"><a href="doneren.php" class="nav_link">Doneren</a></li>
               <li class="nav_item"><a href="contact.php" class="nav_link">Contact</a></li>
             </ul>
@@ -28,13 +41,12 @@
     </header>
     <main>
       <section>
-        
+        <div class="container_news">
+          <?php load_big_news2() ?>
+          <?php load_big_news(); ?>
+        </div>
       </section>
     </main>
-    <footer>
-      <div class="cr-con"><a class="footer1" href="bestuur.php"  >Over ons |</a> <a class="footer1" href="contact.php"  >contact info |</a>
-        <a href="mailto: anil@jovd.nl" class="footer1">Email |</a> <a class="footer1" href="https://www.Facebook.com/"  >Facebook </a> <div class='cr-con'> Jongerenorganisatie Vrijheid en Democratie |  &copy; <script>document.write(new Date().getFullYear());</script> </div>
-      </div>
-    </footer>
+    <?php require('php/footer.php'); ?>
   </body>
 </html>
